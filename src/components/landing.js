@@ -2,17 +2,23 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom'
 import Nav from './nav'
+import ToggleMenu from "./togglemenu"
+import wolves from "../img/wolves.png"
+import banner from "../img/chronicle-1.png"
+import duel from "../img/duel.png"
+
+
 const Landing = () => {
         return (
             <>
-                <div class="container">
+                <div class="container scrollwrap">
                 <Nav />
       <section class="bannerarea">
-        <img class="banner" src="img/chronicle-1.png" alt="Aftermath Banner"></img>
+        <img class="banner" src={banner} alt="Aftermath Banner"></img>
         </section>
       
-      <section class="content">
-              <img src="/img/wolves.jpg" class='articleImg' alt="Placeholder image"></img>
+      <section class="content ">
+              <img src={wolves} class='articleImg' alt="Placeholder image"></img>
             
                 <h2>Welcome to Solar: Aftermath</h2>
                 
