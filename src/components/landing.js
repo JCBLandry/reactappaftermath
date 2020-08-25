@@ -18,7 +18,7 @@ const Landing = () => {
         </section>
       
       <section class="content ">
-              <img src={wolves} class='articleImg' alt="Placeholder image"></img>
+              <img src={wolves} class='content' alt="Placeholder image"></img>
             
                 <h2>Welcome to Solar: Aftermath</h2>
                 
@@ -33,10 +33,10 @@ const Landing = () => {
 
             <section class="copy">
               <br/>
-              <h2 class='articleImg'>Latest Chronicle Update
+              <h2 class='content'>Latest Chronicle Update
                 </h2>
                 <br/>
-              <p class='articleImg'>I hope these words find you well. I thought I would get used to 'em, I did. The screams. This place seems wrong somehow. Moreso than the broken world already made it. The city itself is the badness that is suckin' the life from us. I rather the rippas' any day over some of the new screams I have heard as of late. Warlords and monsters crash at our gates and are found wanting. Yet the screams of the innocent being burned alive within our walls, these shake an old man to his bone. Noble, strong men and women wander, lost to the real, crawling, seetheing intent bubbling below. And where do we put our hopes? In the Guilds that control us? Bloody handprints on the wall? The monsters in men's skin that people call <strong>heroes</strong>? I think not. Their deeds sway the sheep but not I, Mother. I have found him. The one who will deliver this city from itself. Only he can rip the infection of <strong>heroes</strong> from the near dead corpse of this city. While the people cheer the heroes, they dig their own graves. Oh happy day, Mother. I come to meet you soon.<br/> <br/>I am not fooled. ~Yo'Teh Renart.</p>
+              <p class='content'>I hope these words find you well. I thought I would get used to 'em, I did. The screams. This place seems wrong somehow. Moreso than the broken world already made it. The city itself is the badness that is suckin' the life from us. I rather the rippas' any day over some of the new screams I have heard as of late. Warlords and monsters crash at our gates and are found wanting. Yet the screams of the innocent being burned alive within our walls, these shake an old man to his bone. Noble, strong men and women wander, lost to the real, crawling, seetheing intent bubbling below. And where do we put our hopes? In the Guilds that control us? Bloody handprints on the wall? The monsters in men's skin that people call <strong>heroes</strong>? I think not. Their deeds sway the sheep but not I, Mother. I have found him. The one who will deliver this city from itself. Only he can rip the infection of <strong>heroes</strong> from the near dead corpse of this city. While the people cheer the heroes, they dig their own graves. Oh happy day, Mother. I come to meet you soon.<br/> <br/>I am not fooled. ~Yo'Teh Renart.</p>
             </section>
             <img src='img/duel.png' alt='Two Players Fighting with Larp Safe Weapons'></img>
           </section>
